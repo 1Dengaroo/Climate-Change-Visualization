@@ -1,0 +1,171 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "colfax-light", sans-serif;
+  background-color: #f2f3f5;
+}
+
+h1 {
+  font-weight: 1;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-size: 57px;
+  visibility: visible;
+}
+
+h2 {
+  font-weight: 1;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -1px;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-size: 32px;
+  visibility: visible;
+  margin-top: 10rem;
+}
+
+h5 {
+  font-weight: 1;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  margin-top: 5rem;
+}
+
+p {
+  letter-spacing: -0.3px;
+  font-family: "colfax-light", sans-serif;
+  font-size: 16px;
+  line-height: 2;
+  color: #222;
+}
+
+span {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    padding: 0 10rem;
+  }
+  h2 {
+    padding: 0 10rem;
+  }
+  h5 {
+    padding: 0 10rem;
+  }
+  p {
+    width: 66%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    padding: 0 1rem;
+  }
+  h2 {
+    padding: 0 1rem;
+  }
+  h5 {
+    padding: 0 1rem;
+  }
+  p {
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  margin: 10rem;
+  margin-top: 3rem;
+}
+
+.chart {
+  margin-bottom: 2.5rem;
+}
+
+.climate-graph {
+  margin-bottom: 1rem;
+}
+
+/* DEFORESTATION */
+.areaPos {
+  fill: rgb(16, 169, 16);
+}
+
+.areaNeg {
+  fill: blue;
+}
+
+.title {
+  font-size: 18px;
+  color: steelblue;
+  text-transform: uppercase;
+  text-anchor: middle;
+  font-weight: 550;
+  letter-spacing: 0.75px;
+}
+
+.txtRate {
+  font-size: 10px;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  padding: 1px 12px;
+  color: white;
+  margin-left: 3px;
+}
+
+.greenhouse {
+  background-color: green;
+}
+
+.ozone {
+  background-color: teal;
+}
+
+.aerosol {
+  background-color: darkblue;
+}
+
+.land {
+  background-color: yellowgreen;
+}
+
+.orbital {
+  background-color: skyblue;
+}
+
+.solar {
+  background-color: orange;
+}
+
+.volcanic {
+  background-color: red;
+}
+
+.climate-buttons {
+  margin-bottom: 2rem;
+}
