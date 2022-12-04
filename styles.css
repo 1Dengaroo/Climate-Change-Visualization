@@ -4,17 +4,33 @@ html {
 
 body {
   font-family: "colfax-light", sans-serif;
-  background-color: #f2f3f5;
+  background: linear-gradient(
+    to bottom,
+    rgb(204, 244, 252) 0%,
+    #243b55 100%
+  ); /* W3C */
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  margin-bottom: 10rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 3rem;
+  background-color: #f5f5f5;
+  border-radius: 0.33rem;
+  box-shadow: 0 15px 15px rgb(0 0 0 / 16%);
+  color: #000000;
 }
 
 h1 {
-  font-weight: 1;
+  font-weight: 100;
   text-transform: uppercase;
   margin: 0;
-  letter-spacing: -1px;
   margin-bottom: 0.5rem;
   line-height: 1.6;
-  font-size: 57px;
+  font-size: 3rem;
   visibility: visible;
 }
 
@@ -27,7 +43,6 @@ h2 {
   line-height: 1.6;
   font-size: 32px;
   visibility: visible;
-  margin-top: 10rem;
 }
 
 h5 {
@@ -42,7 +57,7 @@ h5 {
 p {
   letter-spacing: -0.3px;
   font-family: "colfax-light", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 2;
   color: #222;
 }
@@ -55,10 +70,7 @@ span {
 
 @media only screen and (min-width: 1000px) {
   h1 {
-    padding: 0 10rem;
-  }
-  h2 {
-    padding: 0 10rem;
+    margin-top: 3rem;
   }
   h5 {
     padding: 0 10rem;
@@ -83,6 +95,26 @@ span {
   }
 }
 
+.intro {
+  margin-left: 5rem;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 40%;
+}
+
+.col-8 {
+  flex-basis: 60%;
+}
+
+.col-9 {
+  flex-basis: 75%;
+}
+
 .row {
   display: flex;
 }
@@ -94,9 +126,16 @@ span {
   text-align: center;
 }
 
-.container {
-  margin: 10rem;
-  margin-top: 3rem;
+.welcome .row {
+  margin-bottom: 5rem;
+}
+
+.welcome-img {
+  width: 33%;
+  height: 300px;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-right: 5rem;
 }
 
 .chart {
@@ -136,6 +175,8 @@ span {
   padding: 1px 12px;
   color: white;
   margin-left: 3px;
+  padding-bottom: 2px;
+  font-size: 12px;
 }
 
 .greenhouse {

@@ -12,8 +12,8 @@ const forced = await fetch(forcePath);
 const observed = await fetch(observePath);
 
 const margin = { top: 25, right: 50, bottom: 25, left: 80 };
-const width = 900 - margin.left - margin.right;
-const height = 300 - margin.top - margin.bottom;
+const width = 1250 - margin.left - margin.right;
+const height = 400 - margin.top - margin.bottom;
 
 const svg = d3
   .select(".climate-graph")
