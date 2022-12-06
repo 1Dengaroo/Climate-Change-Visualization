@@ -16,6 +16,7 @@
     <script defer type="module" src="visualizations/greenhouse.js"></script>
     <script defer type="module" src="visualizations/sealevel.js"></script>
     <script defer type="module" src="visualizations/deforestation.js"></script>
+    <script defer async src="visualizations/plastic.js"></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Human Impact: Viz Final</title>
   </head>
@@ -23,12 +24,24 @@
     <div class="container">
       <section id="welcome"></section>
       <section id="climate-causes"></section>
+      <section id="greenhouse"></section>
       <section id="climate-impacts"></section>
+      <section id="greenhouse-conclusion"></section>
+      <section id="plastic">
+        <div class="plastic-chart chart"></div>
+        <div class="center">
+          <div class="sort-group">
+            <h5>Sort by</h5>
+            <div>
+              <select id="plastic-category">
+                <option value="ocean_waste">Ocean Emission</option>
+                <option value="plastic_production">Plastic Production</option>
+              </select>
+            </div>
+            <button id="sort">Sort</button>
+          </div>
+        </div>
+      </section>
     </div>
-    <progress value="0" id="progressBar">
-      <div class="progress-container">
-        <span class="progress-bar"></span>
-      </div>
-    </progress>
   </body>
 </html>

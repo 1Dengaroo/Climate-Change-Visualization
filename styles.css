@@ -210,3 +210,13 @@ span {
 .climate-buttons {
   margin-bottom: 2rem;
 }
+
+.sort-group {
+  top: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.greenhouse-text {
+  margin-top: 0;
+}
